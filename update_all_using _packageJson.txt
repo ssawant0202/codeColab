@@ -1,0 +1,5 @@
+1. Replace all the depedicies in your packagejson file
+2. npm install
+3. npm install -g npm-check-updates
+4. ncu -u //this changes all the versions in packagejson
+5. npm install 
