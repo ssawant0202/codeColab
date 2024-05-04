@@ -13,10 +13,7 @@ const registerSchema = mongoose.Schema(
         password:{
             type: String,
             required: true,
-        },
-    },
-    {
-        timestamp: true,
+        }
     }
 );
 export const newUser = mongoose.model('newUser',registerSchema);
